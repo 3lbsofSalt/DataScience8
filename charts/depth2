@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label="DLLelectron <= 1.801\ngini = 0.833\nsamples = 1200000\nvalue = [200000, 200000, 200000, 200000, 200000, 200000]\nclass = Muon", fillcolor="#ffffff"] ;
-1 [label="MuonFlag <= 0.5\ngini = 0.809\nsamples = 967658\nvalue = [28154, 155953, 194129, 198714, 196737, 193971]\nclass = Proton", fillcolor="#feffff"] ;
+0 [label="DLLelectron <= 1.774\ngini = 0.833\nsamples = 900000\nvalue = [150060, 149701, 149613, 150409, 150003, 150214]\nclass = Proton", fillcolor="#ffffff"] ;
+1 [label="MuonFlag <= 0.5\ngini = 0.809\nsamples = 725199\nvalue = [20962, 116536, 145129, 149405, 147499, 145668]\nclass = Proton", fillcolor="#feffff"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.786\nsamples = 774244\nvalue = [27561, 150304, 183421, 38637, 187814, 186507]\nclass = Kaon", fillcolor="#ffffff"] ;
+2 [label="gini = 0.785\nsamples = 579806\nvalue = [20524, 112311, 137165, 28969, 140770, 140067]\nclass = Kaon", fillcolor="#ffffff"] ;
 1 -> 2 ;
-3 [label="gini = 0.307\nsamples = 193414\nvalue = [593, 5649, 10708, 160077, 8923, 7464]\nclass = Proton", fillcolor="#5dafea"] ;
+3 [label="gini = 0.306\nsamples = 145393\nvalue = [438.0, 4225.0, 7964.0, 120436.0, 6729.0, 5601.0]\nclass = Proton", fillcolor="#5dafea"] ;
 1 -> 3 ;
-4 [label="GhostProbability <= 0.098\ngini = 0.415\nsamples = 232342\nvalue = [171846, 44047, 5871, 1286, 3263, 6029]\nclass = Muon", fillcolor="#eda979"] ;
+4 [label="GhostProbability <= 0.102\ngini = 0.417\nsamples = 174801\nvalue = [129098, 33165, 4484, 1004, 2504, 4546]\nclass = Muon", fillcolor="#edaa79"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="gini = 0.283\nsamples = 184184\nvalue = [155163.0, 13721.0, 5542.0, 1097.0, 2971.0, 5690.0]\nclass = Muon", fillcolor="#e9965b"] ;
+5 [label="gini = 0.287\nsamples = 139477\nvalue = [117128, 10661, 4233, 859, 2291, 4305]\nclass = Muon", fillcolor="#ea975b"] ;
 4 -> 5 ;
-6 [label="gini = 0.483\nsamples = 48158\nvalue = [16683.0, 30326.0, 329.0, 189.0, 292.0, 339.0]\nclass = Ghost", fillcolor="#d5f4a9"] ;
+6 [label="gini = 0.479\nsamples = 35324\nvalue = [11970, 22504, 251, 145, 213, 241]\nclass = Ghost", fillcolor="#d3f3a6"] ;
 4 -> 6 ;
 }
