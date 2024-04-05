@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="DLLelectron <= 1.801\ngini = 0.833\nsamples = 1200000\nvalue = [200000, 200000, 200000, 200000, 200000, 200000]\nclass = Muon", fillcolor="#ffffff"] ;
+1 [label="gini = 0.809\nsamples = 967658\nvalue = [28154, 155953, 194129, 198714, 196737, 193971]\nclass = Proton", fillcolor="#feffff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.415\nsamples = 232342\nvalue = [171846, 44047, 5871, 1286, 3263, 6029]\nclass = Muon", fillcolor="#eda979"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
